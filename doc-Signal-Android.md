@@ -23,6 +23,8 @@ Authors: [Gabriela Brant Alves](https://github.com/gabibrant), [Guilherme Rangel
 
 *Universidade Federal de Minas Gerais - Brazil*
 
+![](https://lh3.googleusercontent.com/l2UcWONe0L_UWIIuD3zTgwNRaW9n6cmJdofaEV2LD6U4Ngg8YiUs2wUD9EU8xo2ne9w=w300-rw)
+
 
 Abstract
 ---------
