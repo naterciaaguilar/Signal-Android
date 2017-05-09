@@ -19,8 +19,9 @@ Outras informações:
 Signal Android
 ===================
 
-Authors: Gabriela Brant Alves, Guilherme Rangel da Silva Moura, Paulo Henrique de Carvalho
-Universidade Federal de Minas Gerais = Brazil
+Authors: [Gabriela Brant Alves](https://github.com/gabibrant), [Guilherme Rangel da Silva Moura](https://github.com/guirangel17), [Paulo Henrique de Carvalho](https://github.com/paulo-carvalho)
+
+*Universidade Federal de Minas Gerais - Brazil*
 
 
 Abstract
