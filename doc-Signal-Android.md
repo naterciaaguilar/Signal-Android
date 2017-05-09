@@ -1,5 +1,5 @@
 Organização esperada para cada capítulo (sistema):
-Descrição do sistema, incluindo principais features, objetivo, linguagem de programação.
+- Descrição do sistema, incluindo principais features, objetivo, linguagem de programação.
 - Informações da equipe de desenvolvimento: principais desenvolvedores, funções na equipe (?)
 - Breve descrição da evolução do sistema: principais releases e novidades de cada uma.
 - Principais frameworks, ferramentas e linguagens usadas no desenvolvimento.
@@ -13,3 +13,52 @@ Idealmente, não é interessante copiar figuras e tabelas. Mas se for inevitáve
 Outras informações:
 - Tamanho dos capítulos: cerca de 6 mil palavras, sendo que cada figura/tabela conta como 200 palavras.
 - Os capítulos podem ser escritos em Português, mas capítulos escritos em Inglês são muito bem vindos.
+
+
+
+Signal Android
+===================
+
+Authors: Gabriela Brant Alves, Guilherme Rangel da Silva Moura, Paulo Henrique de Carvalho
+Universidade Federal de Minas Gerais = Brazil
+
+
+Abstract
+---------
+
+Table of Contents
+------------------
+
+
+
+Introduction
+------------
+
+
+Stakeholders
+------------
+Quem criou, mantém, é responsável pelo projeto
+
+
+
+Context View
+------------
+
+
+Development View 
+----------------
+
+
+Evolution Perspective
+---------------------
+
+Conclusion
+-----------
+
+
+References
+-----------
+
+
+
+
