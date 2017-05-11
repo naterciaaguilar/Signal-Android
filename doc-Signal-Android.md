@@ -23,11 +23,22 @@ Authors: [Gabriela Brant Alves](https://github.com/gabibrant), [Guilherme Rangel
 
 *Universidade Federal de Minas Gerais - Brazil*
 
-
+![](https://lh3.googleusercontent.com/l2UcWONe0L_UWIIuD3zTgwNRaW9n6cmJdofaEV2LD6U4Ngg8YiUs2wUD9EU8xo2ne9w=w300-rw)
 
 
 Abstract
 ---------
+
+Summary
+---------
+* Table of Contents
+* Introduction
+* Stakeholders
+* Context View
+* Development View
+* Evolution Perspective
+* Conclusion
+* References
 
 Table of Contents
 ------------------
@@ -41,7 +52,17 @@ Signal is an **encrypted communications app** for secure and private communicati
 
 This chapter aims to thoroughly describe the architecture of the system, covering general aspects such as its main functionalities,  and its objective and also covering technical aspects, like its programming language, information about its development team, releases, frameworks, project patterns, among others.
 
-![](https://lh3.googleusercontent.com/l2UcWONe0L_UWIIuD3zTgwNRaW9n6cmJdofaEV2LD6U4Ngg8YiUs2wUD9EU8xo2ne9w=w300-rw)
+Information | Description
+------------ | -------------
+Developer | Open Whisper Systems and contributors
+Initial release| July 29, 2014
+Stable release | Android 4.5.3 (May 1, 2017)
+Repository | github.com/WhisperSystems
+Development Status | Active
+Platform | Android 2.3 or later
+Available in | 31 languages
+Type | 	Encrypted voice calling, video calling and instant messaging
+Website | signal.org
 
 Stakeholders
 ------------
