@@ -23,7 +23,7 @@ Authors: [Gabriela Brant Alves](https://github.com/gabibrant), [Guilherme Rangel
 
 *Universidade Federal de Minas Gerais - Brazil*
 
-![](https://lh3.googleusercontent.com/l2UcWONe0L_UWIIuD3zTgwNRaW9n6cmJdofaEV2LD6U4Ngg8YiUs2wUD9EU8xo2ne9w=w300-rw)
+
 
 
 Abstract
@@ -37,6 +37,11 @@ Table of Contents
 Introduction
 ------------
 
+Signal is an **encrypted communications app** for secure and private communication with friends. It uses the Internet to send one-to-one and group messages, which can include images and video messages, and make one-to-one voice and video calls. Signal uses standard cellular mobile numbers as identifiers, and uses end-to-end encryption to secure all communications to other Signal users. The applications include mechanisms by which users can independently verify the identity of their messaging correspondents and the integrity of the data channel. In addition, a Chrome app that can link with a Signal client has been released.
+
+This chapter aims to thoroughly describe the architecture of the system, covering general aspects such as its main functionalities,  and its objective and also covering technical aspects, like its programming language, information about its development team, releases, frameworks, project patterns, among others.
+
+![](https://lh3.googleusercontent.com/l2UcWONe0L_UWIIuD3zTgwNRaW9n6cmJdofaEV2LD6U4Ngg8YiUs2wUD9EU8xo2ne9w=w300-rw)
 
 Stakeholders
 ------------
