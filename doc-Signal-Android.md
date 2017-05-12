@@ -87,8 +87,13 @@ Development View
 Evolution Perspective
 ---------------------
 
+Falar primeiro da história do aplicativo (tem na wikipedia), depois falar da evolução na perspectiva do github
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Signal_timeline.svg/653px-Signal_timeline.svg.png" width="550">
 
+<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar.PNG?raw=true">
+
+<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar2.PNG?raw=true">
 
 
 
