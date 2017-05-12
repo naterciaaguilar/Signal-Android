@@ -23,8 +23,6 @@ Authors: [Gabriela Brant Alves](https://github.com/gabibrant), [Guilherme Rangel
 
 *Universidade Federal de Minas Gerais - Brazil*
 
-![](https://lh3.googleusercontent.com/l2UcWONe0L_UWIIuD3zTgwNRaW9n6cmJdofaEV2LD6U4Ngg8YiUs2wUD9EU8xo2ne9w=w300-rw)
-
 
 Abstract
 ---------
@@ -64,11 +62,19 @@ Available in | 31 languages
 Type | 	Encrypted voice calling, video calling and instant messaging
 Website | signal.org
 
+*Table 01 - Signal app Information*
+
+<img src="https://lh3.googleusercontent.com/l2UcWONe0L_UWIIuD3zTgwNRaW9n6cmJdofaEV2LD6U4Ngg8YiUs2wUD9EU8xo2ne9w=w300-rw" width="150">
+
+*Figure 01 - Signal Logo*
+
 Stakeholders
 ------------
-Quem criou, mantém, é responsável pelo projeto
+Signal is developed by *Open Whisper Systems*, a software organization founded by Moxie Marlinspike in 2013. The organization is funded by a combination of donations and grants, and all of its products are published as free and open-source software.
 
+<img src="https://upload.wikimedia.org/wikipedia/en/4/4f/Open_WhisperSystems_logo.png" width="150">
 
+*Figure 2 - Open Whisper Systems Logo*
 
 Context View
 ------------
@@ -92,6 +98,8 @@ Conclusion
 References
 -----------
 
+https://en.wikipedia.org/wiki/Open_Whisper_Systems
+https://whispersystems.org/
 
 
 
