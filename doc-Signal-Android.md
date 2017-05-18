@@ -27,6 +27,16 @@ Authors: [Gabriela Brant Alves](https://github.com/gabibrant), [Guilherme Rangel
 Abstract
 ---------
 
+<img src="http://i.utdstc.com/icons/256/signal-private-messenger-android.png" width="150">
+
+*Figure 01 - Signal Logo*
+
+This chapter aims to thoroughly describe the architecture of the system, covering general aspects such as its main functionalities and its objective, also covering technical aspects, like its programming language, information about its development team, releases, frameworks, project patterns, among others.
+
+/*
+This chapter gives a brief overview of Neo4j's architecture by focusing on three fundamental concepts: stakeholders, viewpoints, and perspectives as defined in the book by Rozanski and Woods[1]. The stakeholder analysis section details the types of influencer's who have an impact the Neo4j's architecture. The context view explains the interactions between Neo4j and its environment; the development view and deployment views describe the software development process and the runtime environment respectively. Following this, the evolution, variability, performance & scaling perspectives of Neo4j are analyzed. Through these multiple viewpoints and perspectives, the software architecture of Neo4j can be easily discerned.
+*/
+
 Summary
 ---------
 * Table of Contents
@@ -48,8 +58,6 @@ Introduction
 
 Signal is an **encrypted communications app** for secure and private communication with friends. It uses the Internet to send one-to-one and group messages, which can include images and video messages, and make one-to-one voice and video calls. Signal uses standard cellular mobile numbers as identifiers, and uses end-to-end encryption to secure all communications to other Signal users. The applications include mechanisms by which users can independently verify the identity of their messaging correspondents and the integrity of the data channel. In addition, a Chrome app that can link with a Signal client has been released.
 
-This chapter aims to thoroughly describe the architecture of the system, covering general aspects such as its main functionalities and its objective, also covering technical aspects, like its programming language, information about its development team, releases, frameworks, project patterns, among others.
-
 Information | Description
 ------------ | -------------
 Developer | Open Whisper Systems and contributors
@@ -63,10 +71,6 @@ Type | 	Encrypted voice calling, video calling and instant messaging
 Website | signal.org
 
 *Table 01 - Signal app Information*
-
-<img src="https://lh3.googleusercontent.com/l2UcWONe0L_UWIIuD3zTgwNRaW9n6cmJdofaEV2LD6U4Ngg8YiUs2wUD9EU8xo2ne9w=w300-rw" width="150">
-
-*Figure 01 - Signal Logo*
 
 Stakeholders
 ------------
