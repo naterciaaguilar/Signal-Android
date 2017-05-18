@@ -16,26 +16,21 @@ Outras informações:
 
 
 
-Signal Android
+Signal Private Messenger for Android
 ===================
 
 Authors: [Gabriela Brant Alves](https://github.com/gabibrant), [Guilherme Rangel da Silva Moura](https://github.com/guirangel17), [Paulo Henrique de Carvalho](https://github.com/paulo-carvalho)
 
 *Universidade Federal de Minas Gerais - Brazil*
 
-
 Abstract
 ---------
 
 <img src="http://i.utdstc.com/icons/256/signal-private-messenger-android.png" width="150">
 
-*Figure 01 - Signal Logo*
+*Figure 01 - Signal Private Messenger for Android Logo*
 
-This chapter aims to thoroughly describe the architecture of the system, covering general aspects such as its main functionalities and its objective, also covering technical aspects, like its programming language, information about its development team, releases, frameworks, project patterns, among others.
-
-/*
-This chapter gives a brief overview of Neo4j's architecture by focusing on three fundamental concepts: stakeholders, viewpoints, and perspectives as defined in the book by Rozanski and Woods[1]. The stakeholder analysis section details the types of influencer's who have an impact the Neo4j's architecture. The context view explains the interactions between Neo4j and its environment; the development view and deployment views describe the software development process and the runtime environment respectively. Following this, the evolution, variability, performance & scaling perspectives of Neo4j are analyzed. Through these multiple viewpoints and perspectives, the software architecture of Neo4j can be easily discerned.
-*/
+This chapter aims to thoroughly describe the architecture of the Signal Private Messenger for Android software, covering general aspects such as its stakeholders, context, development and deployment views, and evolution perspective. The stakeholder analysis section details the types of influencer's who have any impact with the Signal's architecture, like developers, enterprises and final users. The context view explains the interactions between the software and its environment. The development view and deployment views describe the software development process and the runtime environment respectively. And finally, the evolution perspective relates the evolution, variability, performance & scaling the user community acceptance and perspectives of Signal Private Messenger.
 
 Summary
 ---------
@@ -56,7 +51,7 @@ Table of Contents
 Introduction
 ------------
 
-Signal is an **encrypted communications app** for secure and private communication with friends. It uses the Internet to send one-to-one and group messages, which can include images and video messages, and make one-to-one voice and video calls. Signal uses standard cellular mobile numbers as identifiers, and uses end-to-end encryption to secure all communications to other Signal users. The applications include mechanisms by which users can independently verify the identity of their messaging correspondents and the integrity of the data channel. In addition, a Chrome app that can link with a Signal client has been released.
+Signal Private Messenger is an **encrypted communications app** for secure and private communication with friends. It uses the Internet to send one-to-one and group messages, which can include images and video messages, and make one-to-one voice and video calls. Signal uses standard cellular mobile numbers as identifiers, and uses end-to-end encryption to secure all communications to other Signal users. The applications include mechanisms by which users can independently verify the identity of their messaging correspondents and the integrity of the data channel. In addition, a Chrome app that can link with a Signal client has been released.
 
 Information | Description
 ------------ | -------------
@@ -71,6 +66,8 @@ Type | 	Encrypted voice calling, video calling and instant messaging
 Website | signal.org
 
 *Table 01 - Signal app Information*
+
+According to GitTrends.io, the repository was created in the end of 2011 and has a moderated growing rate with more than 7.5k stars, considered one of the 700 most popular repositories in the Github platform[3].
 
 Stakeholders
 ------------
@@ -87,6 +84,7 @@ Context View
 Development View 
 ----------------
 
+The Signal Private Messenger has only one user as truck factor: Moxie Marlinspike, responsible for more than 94% of the files in the master branch.
 
 Evolution Perspective
 ---------------------
@@ -94,7 +92,7 @@ Evolution Perspective
 Falar primeiro da história do aplicativo (tem na wikipedia), depois falar da evolução na perspectiva do github
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Signal_timeline.svg/653px-Signal_timeline.svg.png" width="550">
-
+[1] - Rozanski, Nick, and Eóin Woods. Software systems architecture: working with stakeholders using viewpoints and perspectives. Addison-Wesley, 2012. 
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar.PNG?raw=true">
 
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar2.PNG?raw=true">
@@ -106,13 +104,15 @@ Reception
 Signal was well recepted by the security community. In October 2014, the Electronic Frontier Foundation (EFF) included Signal in their updated surveillance self-defense guide and afterwards, in November of the same year, Signal received a perfect score of the EFF's messaging scorecard. 
 
 Edward Sowden has endorsed Signal on multiple occasions. In his keynote speech at SXSW in March 2014, he praised Signal's predecessors (TextSecure and RedPhone) for their ease-of-use. During an interview with The New Yorker in October 2014, he recommended using "anything from Moxie Marlinspike and Open Whisper Systems." During a remote appearance at an event hosted by Ryerson University and Canadian Journalists for Free Expression in March 2015, Snowden said that Signal is "very good" and that he knew the security model. Asked about encrypted messaging apps during a Reddit AMA in May 2015, he recommended Signal. In November 2015, Snowden tweeted that he used Signal "every day."
-
+[1] - Rozanski, Nick, and Eóin Woods. Software systems architecture: working with stakeholders using viewpoints and perspectives. Addison-Wesley, 2012. 
 Conclusion
 -----------
 
 
 References
 -----------
+
+[1] - Rozanski, Nick, and Eóin Woods. Software systems architecture: working with stakeholders using viewpoints and perspectives. Addison-Wesley, 2012. 
 
 https://en.wikipedia.org/wiki/Open_Whisper_Systems
 https://whispersystems.org/
