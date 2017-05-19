@@ -98,10 +98,14 @@ In February 2014, Open Whisper Systems introduced the second version of their Te
 The graph of inclusions and exclusions in the code, can be observed below.
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar2.PNG?raw=true">
 
-
-
 The next graph shows the number of contributors over the years, since 2012
-<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar.PNG?raw=true">
+<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar.PNG?raw=true" >
+
+
+Number of stars over the years:
+
+<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar3.PNG?raw=true" width="500">
+
 
 
 
@@ -120,8 +124,10 @@ References
 
 [1] - Rozanski, Nick, and Eóin Woods. Software systems architecture: working with stakeholders using viewpoints and perspectives. Addison-Wesley, 2012. 
 
-https://en.wikipedia.org/wiki/Open_Whisper_Systems
-https://whispersystems.org/
+[2] - https://whispersystems.org. Accessed on May 15 2017
+
+
+
 
 
 
