@@ -36,7 +36,7 @@ Summary
 ---------
 * Introduction
 * Stakeholders
-* Context View
+* Context
 * Development View
 * Evolution Perspective
 * Conclusion
@@ -65,24 +65,29 @@ According to GitTrends.io, the repository was created in the end of 2011 and has
 
 Stakeholders
 ------------
+Stakeholders are the people, groups and/or organizations that have interest or concern in an organization. Stakeholders can affect or be affected by the organization's actions, objectives and policies. Rozanski and Woods discuss 11 types of stakeholders in their book.
+
 Signal is developed by *Open Whisper Systems*, a software organization founded by Moxie Marlinspike in 2013. The organization is funded by a combination of donations and grants, and all of its products are published as free and open-source software.
 
 <img src="https://upload.wikimedia.org/wikipedia/en/4/4f/Open_WhisperSystems_logo.png" width="150">
 
 *Figure 2 - Open Whisper Systems Logo. Source: Github*
 
-Context View
+Context
 ------------
+
+The context view of a system defines the relationships, dependencies and interactions between the system and its environment. This environment includes the people, systems and external entities with which it interacts. It defines what the system does and what the system does not do.
 
 
 Development View 
 ----------------
+According to Rozanski and Woods, the development view concerns "code structure and dependencies, build and configuration management of deliverables, systemwide design constraints, and system-wide standards to ensure technical integrity". 
 
 According to GitTrends.io, the Signal Private Messenger has only one user as truck factor: Moxie Marlinspike, responsible for more than 94% of the files in the master branch.
 
 
 
-
+### Code Guidelines
 
 
 Evolution Perspective
