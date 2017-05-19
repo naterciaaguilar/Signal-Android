@@ -28,9 +28,9 @@ Abstract
 This chapter aims to thoroughly describe the architecture of the Signal Private Messenger for Android software, covering general aspects such as its stakeholders, context, development and deployment views, and evolution perspective. The stakeholder analysis section details the types of influencer's who have any impact with the Signal's architecture, like developers, enterprises and final users. The context view explains the interactions between the software and its environment. The development view and deployment views describe the software development process and the runtime environment respectively. And finally, the evolution perspective relates the evolution, variability, performance & scaling the user community acceptance and perspectives of Signal Private Messenger.
 
 
-<img src="http://i.utdstc.com/icons/256/signal-private-messenger-android.png" width="150">
+<img src="https://lh3.googleusercontent.com/l2UcWONe0L_UWIIuD3zTgwNRaW9n6cmJdofaEV2LD6U4Ngg8YiUs2wUD9EU8xo2ne9w=w300" width="150">
 
-*Figure 01 - Signal Private Messenger for Android Logo*
+*Figure 01 - Signal Private Messenger for Android Logo. Source: Google Play*
 
 Summary
 ---------
@@ -69,7 +69,7 @@ Signal is developed by *Open Whisper Systems*, a software organization founded b
 
 <img src="https://upload.wikimedia.org/wikipedia/en/4/4f/Open_WhisperSystems_logo.png" width="150">
 
-*Figure 2 - Open Whisper Systems Logo*
+*Figure 2 - Open Whisper Systems Logo. Source: Github*
 
 Context View
 ------------
@@ -78,7 +78,7 @@ Context View
 Development View 
 ----------------
 
-The Signal Private Messenger has only one user as truck factor: Moxie Marlinspike, responsible for more than 94% of the files in the master branch.
+According to GitTrends.io, the Signal Private Messenger has only one user as truck factor: Moxie Marlinspike, responsible for more than 94% of the files in the master branch.
 
 
 
@@ -87,7 +87,7 @@ The Signal Private Messenger has only one user as truck factor: Moxie Marlinspik
 
 Evolution Perspective
 ---------------------
-Signal is the successor of an encrypted voice calling app called RedPhone and an encrypted texting program called TextSecure. The beta versions of RedPhone and TextSecure were first launched in May 2010 by Whisper Systems, a startup company co-founded by security researcher Moxie Marlinspike and roboticist Stuart Anderson. The company also produced a firewall and tools for encrypting other forms of data. All of these were proprietary enterprise mobile security software and were only available for Android.
+Signal Private Messenger is the successor of an encrypted voice calling app called RedPhone and an encrypted texting program called TextSecure. The beta versions of RedPhone and TextSecure were first launched in May 2010 by Whisper Systems, a startup company co-founded by security researcher Moxie Marlinspike and roboticist Stuart Anderson. The company also produced a firewall and tools for encrypting other forms of data. All of these were proprietary enterprise mobile security software and were only available for Android.
 
 In November 2011, Whisper Systems announced that it had been acquired by Twitter. Twitter released TextSecure as free and open-source software under the GPLv3 license in December 2011. RedPhone was also released under the same license in July 2012. Marlinspike later left Twitter and founded Open Whisper Systems as a collaborative Open Source project for the continued development of TextSecure and RedPhone.
 
@@ -95,7 +95,9 @@ In February 2014, Open Whisper Systems introduced the second version of their Te
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Signal_timeline.svg/653px-Signal_timeline.svg.png" width="550">
 
-The graph of inclusions and exclusions in the code, can be observed below.
+*Figure 3 - Timeline of the development of Signal Private Messenger. Source: Wikipedia*
+
+The graph of inclusions and exclusions in the code, can be observed in the Figure 4 below.
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar2.PNG?raw=true">
 
 The next graph shows the number of contributors over the years, since 2012
