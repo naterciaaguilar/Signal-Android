@@ -57,7 +57,25 @@ According to GitTrends.io, the repository was created in the end of 2011 and has
 
 Stakeholders
 ------------
-Stakeholders are the people, groups and/or organizations that have interest or concern in an organization. Stakeholders can affect or be affected by the organization's actions, objectives and policies. Rozanski and Woods discuss 11 types of stakeholders in their book.
+Stakeholders are the people, groups and/or organizations that have interest or concern in an organization. Stakeholders can affect or be affected by the organization's actions, objectives and policies. Rozanski and Woods discuss 10 types of stakeholders in their book and we are going to describe the most important for our project. 
+
+**Developers**: consists mainly of the team Open Whisper Systems, which is a project that unites a select group of developers driven by the same goal: make private communication simple. Also, they accept volunteer contribution through their GitHub account where the Signal Private Messager is hosted. 
+
+**Users**: Consist of people who wants their message to be cryptographed during a conversation. Any person in the world who worries about privacy and security is eligible to be an user of this app.  
+
+**Maintainers**: Signal is maintained by the Open Whisper Systems team, but GitHub is the main driver in keeping the project alive. They orient and guide developers to keep building the project. 
+
+**Support staff**:
+<!-- Consists mainly of a lot of volunteers, but next to that also the GitHub staff and core developers. This is done by responding to issues, triaging issues and pull requests, closing bugs as duplicate or filed on the wrong repository, and much more. Also the Forum and Slack are used for quick support to the end users and developers. Lee Dohm is the main community manager and manages all supporting staff. -->
+
+**Testers**: 
+<!-- The main users test the system and report bugs to the issue tracker on GitHub. There is no special test team available although the core developers test most pull requests before merging. -->
+
+**Production Engineers**: 
+<!-- All tools like GitHub, the Forum, Slack and the build servers are maintained by the GitHub team. They make sure it is running and invest time in updates or setting up new tools. -->
+
+**Assessors**: 
+<!-- The core development team of Atom oversees the conformance of the programming standards. They check each pull request with multiple people and also check if it is still in line with the future planning. -->
 
 Signal is developed by *Open Whisper Systems*, a software organization founded by Moxie Marlinspike in 2013. The organization is funded by a combination of donations and grants, and all of its products are published as free and open-source software.
 
