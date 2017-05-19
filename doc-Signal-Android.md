@@ -118,20 +118,24 @@ In February 2014, Open Whisper Systems introduced the second version of their Te
 The graph of inclusions and exclusions in the code, can be observed in the Figure 4 below.
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar2.PNG?raw=true">
 
+*Figure 4 - Code frequency (lines of code added and deleted) throughout the years of development. Source: Github*
+
 The next graph shows the number of contributors over the years, since 2012
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar.PNG?raw=true" >
 
+*Figure 5 - Contributions based on commits over the years for Singal Private Messenger, since 2012. Source: Github*
 
 Number of stars over the years:
 
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar3.PNG?raw=true" width="500">
 
+*Figure 6 - Number of stars and unstars over the years, since November 2011, and its predction for next year. Source: GitTrends.io*
 
 
 
 Reception
 ----------
-Signal was well recepted by the security community. In October 2014, the Electronic Frontier Foundation (EFF) included Signal in their updated surveillance self-defense guide and afterwards, in November of the same year, Signal received a perfect score of the EFF's messaging scorecard. 
+Signal Private Messenger was well recepted by the security community. In October 2014, the Electronic Frontier Foundation (EFF) included Signal in their updated surveillance self-defense guide and afterwards, in November of the same year, Signal received a perfect score of the EFF's messaging scorecard. 
 
 Edward Sowden has endorsed Signal on multiple occasions. In his keynote speech at SXSW in March 2014, he praised Signal's predecessors (TextSecure and RedPhone) for their ease-of-use. During an interview with The New Yorker in October 2014, he recommended using "anything from Moxie Marlinspike and Open Whisper Systems." During a remote appearance at an event hosted by Ryerson University and Canadian Journalists for Free Expression in March 2015, Snowden said that Signal is "very good" and that he knew the security model. Asked about encrypted messaging apps during a Reddit AMA in May 2015, he recommended Signal. In November 2015, Snowden tweeted that he used Signal "every day."
 
@@ -145,6 +149,8 @@ References
 [1] - Rozanski, Nick, and Eóin Woods. Software systems architecture: working with stakeholders using viewpoints and perspectives. Addison-Wesley, 2012. 
 
 [2] - https://whispersystems.org. Accessed on May 15 2017
+
+[3] - 
 
 
 
