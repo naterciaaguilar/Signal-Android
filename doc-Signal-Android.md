@@ -31,7 +31,9 @@ Adopted by more than 2.5 billion people in the first 20 years of its existence, 
 
 The term “Internet revolution” refers to the birth of a new information era that has transformed the way we create and share content. To make our societies, nations, and people more secure and allow for the Internet to drive the benefits of improving every aspect of life that it permeates through today, it is necessary to face the challenge of protecting our data.
 
-In this decade we have a cenary of emerging technologhy that don't always worry about privacy and security. These topics are being more and more discussed through society and governments. Big incidents that happened alert the world to the importance of developing technology that can guarantee privacy and security for its users. In this context, appears an software that address these issues: Signal Private Mesasger.
+In this decade we have a cenary of emerging technologhy that don't always worry about privacy and security. These topics are being more and more discussed through society and governments. Big incidents as data leaks, hackers attacks and government control alert the world to the importance of developing technology that can guarantee privacy and security for its users. In this context, appears an software that address these issues: Signal Private Mesasger.
+
+### What is Signal Private Messenger?
 
 Signal Private Messenger is an **encrypted communications app** for secure and private communication with friends. It uses the Internet to send one-to-one and group messages, which can include images and video messages, and make one-to-one voice and video calls. Signal uses standard cellular mobile numbers as identifiers, and uses end-to-end encryption to secure all communications to other Signal users. The applications include mechanisms by which users can independently verify the identity of their messaging correspondents and the integrity of the data channel. In addition, a Chrome app that can link with a Signal client has been released.
 
