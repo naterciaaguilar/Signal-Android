@@ -34,7 +34,6 @@ This chapter aims to thoroughly describe the architecture of the Signal Private 
 
 Summary
 ---------
-* Table of Contents
 * Introduction
 * Stakeholders
 * Context View
@@ -42,11 +41,6 @@ Summary
 * Evolution Perspective
 * Conclusion
 * References
-
-Table of Contents
-------------------
-
-
 
 Introduction
 ------------
@@ -88,11 +82,14 @@ The Signal Private Messenger has only one user as truck factor: Moxie Marlinspik
 
 Evolution Perspective
 ---------------------
+Signal is the successor of an encrypted voice calling app called RedPhone and an encrypted texting program called TextSecure. The beta versions of RedPhone and TextSecure were first launched in May 2010 by Whisper Systems, a startup company co-founded by security researcher Moxie Marlinspike and roboticist Stuart Anderson. The company also produced a firewall and tools for encrypting other forms of data. All of these were proprietary enterprise mobile security software and were only available for Android.
 
-Falar primeiro da história do aplicativo (tem na wikipedia), depois falar da evolução na perspectiva do github
+In November 2011, Whisper Systems announced that it had been acquired by Twitter. Twitter released TextSecure as free and open-source software under the GPLv3 license in December 2011. RedPhone was also released under the same license in July 2012. Marlinspike later left Twitter and founded Open Whisper Systems as a collaborative Open Source project for the continued development of TextSecure and RedPhone.
+
+In February 2014, Open Whisper Systems introduced the second version of their TextSecure Protocol (now Signal Protocol), which added end-to-end encrypted group chat and instant messaging capabilities to TextSecure.[23] Toward the end of July 2014, Open Whisper Systems announced plans to unify its RedPhone and TextSecure applications as Signal. In November 2015, the TextSecure and RedPhone applications on Android were merged to become Signal for Android.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Signal_timeline.svg/653px-Signal_timeline.svg.png" width="550">
-[1] - Rozanski, Nick, and Eóin Woods. Software systems architecture: working with stakeholders using viewpoints and perspectives. Addison-Wesley, 2012. 
+
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar.PNG?raw=true">
 
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar2.PNG?raw=true">
