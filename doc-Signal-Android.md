@@ -80,6 +80,11 @@ Development View
 
 The Signal Private Messenger has only one user as truck factor: Moxie Marlinspike, responsible for more than 94% of the files in the master branch.
 
+
+
+
+
+
 Evolution Perspective
 ---------------------
 Signal is the successor of an encrypted voice calling app called RedPhone and an encrypted texting program called TextSecure. The beta versions of RedPhone and TextSecure were first launched in May 2010 by Whisper Systems, a startup company co-founded by security researcher Moxie Marlinspike and roboticist Stuart Anderson. The company also produced a firewall and tools for encrypting other forms of data. All of these were proprietary enterprise mobile security software and were only available for Android.
@@ -90,9 +95,13 @@ In February 2014, Open Whisper Systems introduced the second version of their Te
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Signal_timeline.svg/653px-Signal_timeline.svg.png" width="550">
 
-<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar.PNG?raw=true">
-
+The graph of inclusions and exclusions in the code, can be observed below.
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar2.PNG?raw=true">
+
+
+
+The next graph shows the number of contributors over the years, since 2012
+<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar.PNG?raw=true">
 
 
 
