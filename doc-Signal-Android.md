@@ -51,7 +51,7 @@ Available in | 31 languages
 Type | 	Encrypted voice calling, video calling and instant messaging
 Website | signal.org
 
-*Table 01 - Signal app Information*
+*Table 01 - Signal Private Messenger app Information*
 
 According to GitTrends.io, the repository was created in the end of 2011 and has a moderated growing rate with more than 7.5k stars, considered one of the 700 most popular repositories in the Github platform.
 
@@ -94,7 +94,7 @@ Development View
 ----------------
 According to Rozanski and Woods, the development view concerns "code structure and dependencies, build and configuration management of deliverables, systemwide design constraints, and system-wide standards to ensure technical integrity". 
 
-According to GitTrends.io, the Signal Private Messenger has only one user as truck factor: Moxie Marlinspike (moxie0), responsible for more than 94% of the files in the master branch.
+According to GitTrends.io, the Signal Private Messenger has only one user as truck factor (truck factor is the minimal number of developers that have to quit before a project is incapacitated. It reveals the concentration of knowledge in individual developers): Moxie Marlinspike (moxie0), responsible for more than 94% of the files in the master branch.
 
 ### BitHub Rewards
 Since Signal is a Open Source software, they have a method to reward people who volunteer to contribute to the project though BitHub, which is a service that will automatically pay a percentage of Bitcoin funds for every submission to a GitHub repository. It is possible to find all details [here](https://github.com/WhisperSystems/Signal-Android/wiki/BitHub-Rewards).
@@ -131,7 +131,10 @@ Number of stars over the years:
 
 *Figure 6 - Number of stars and unstars over the years, since November 2011, and its predction for next year. Source: GitTrends.io*
 
+Most of the bug fixes contributions come from casual users, i.e., people who is not the main developer from any file.
+According to instructions listed on Signal's README, they use GitHub itself for bug tracking. It is instructed to search the existing issues for your bug and create a new one if the issue is not yet tracked.
 
+In order to keep Signal Private Messenger updated and maintain its user-friendly interface, they track string translation activity using Transifex. By May 2017, they have translated 95 languages and 25 of them are completely translated.
 
 Reception
 ----------
@@ -150,7 +153,7 @@ References
 
 [2] - https://whispersystems.org. Accessed on May 15 2017
 
-[3] - 
+[3] - http://gittrends.io/#/repos/WhisperSystems/Signal-Android. Accessed on May 15 2017
 
 
 
