@@ -100,7 +100,7 @@ According to GitTrends.io, the Signal Private Messenger has only one user as tru
 Since Signal is a Open Source software, they have a method to reward people who volunteer to contribute to the project though BitHub, which is a service that will automatically pay a percentage of Bitcoin funds for every submission to a GitHub repository. It is possible to find all details [here](https://github.com/WhisperSystems/Signal-Android/wiki/BitHub-Rewards).
 
 ### Code Guidelines
-The Signal Private Messeger project uses HTML, CSS and JavaScript, which each have different code guidelines. Moxie Marlinspike has provided standards for developing flexible, durable, and sustainable code style where contributors of the project must adhere to. This code guide can be found [here](https://github.com/WhisperSystems/Signal-Android/wiki/Code-Style-Guidelines). 
+Moxie Marlinspike has provided standards for developing flexible, durable, and sustainable code style where contributors of the project must adhere to. This code guide can be found [here](https://github.com/WhisperSystems/Signal-Android/wiki/Code-Style-Guidelines). 
 
 
 Evolution Perspective
