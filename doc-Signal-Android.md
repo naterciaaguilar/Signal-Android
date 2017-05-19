@@ -47,6 +47,8 @@ Introduction
 
 Signal Private Messenger is an **encrypted communications app** for secure and private communication with friends. It uses the Internet to send one-to-one and group messages, which can include images and video messages, and make one-to-one voice and video calls. Signal uses standard cellular mobile numbers as identifiers, and uses end-to-end encryption to secure all communications to other Signal users. The applications include mechanisms by which users can independently verify the identity of their messaging correspondents and the integrity of the data channel. In addition, a Chrome app that can link with a Signal client has been released.
 
+Signal is maintained and run by Open Whisper Systems, a small team of dedicated grant-funded developers, along with a large community of volunteer Open Source contributors that surround the project. All of the source code and files for this project are publicly hosted on GitHub, and anyone can get involved and contribute.
+
 Information | Description
 ------------ | -------------
 Developer | Open Whisper Systems and contributors
@@ -78,16 +80,20 @@ Context
 
 The context view of a system defines the relationships, dependencies and interactions between the system and its environment. This environment includes the people, systems and external entities with which it interacts. It defines what the system does and what the system does not do.
 
+The Open Whisper Systems community is working to advance the state of the art for secure communication, while simultaneously making it easy for everyone to use. They aim to make mass surveillance of private messaging a thing of the past, and to do that their biggest focus is currently user adoption; we want Signal (or something as secure as Signal) to be as ubiquitous as other messaging applications such as WhatsApp or Facebook Messenger.
+
 
 Development View 
 ----------------
 According to Rozanski and Woods, the development view concerns "code structure and dependencies, build and configuration management of deliverables, systemwide design constraints, and system-wide standards to ensure technical integrity". 
 
-According to GitTrends.io, the Signal Private Messenger has only one user as truck factor: Moxie Marlinspike, responsible for more than 94% of the files in the master branch.
+According to GitTrends.io, the Signal Private Messenger has only one user as truck factor: Moxie Marlinspike (moxie0), responsible for more than 94% of the files in the master branch.
 
-
+### BitHub Rewards
+Since Signal is a Open Source software, they have a method to reward people who volunteer to contribute to the project though BitHub, which is a service that will automatically pay a percentage of Bitcoin funds for every submission to a GitHub repository. It is possible to find all details [here](https://github.com/WhisperSystems/Signal-Android/wiki/BitHub-Rewards).
 
 ### Code Guidelines
+The Signal Private Messeger project uses HTML, CSS and JavaScript, which each have different code guidelines. Moxie Marlinspike has provided standards for developing flexible, durable, and sustainable code style where contributors of the project must adhere to. This code guide can be found [here](https://github.com/WhisperSystems/Signal-Android/wiki/Code-Style-Guidelines). 
 
 
 Evolution Perspective
