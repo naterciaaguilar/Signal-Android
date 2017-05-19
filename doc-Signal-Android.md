@@ -91,7 +91,7 @@ Signal is the successor of an encrypted voice calling app called RedPhone and an
 
 In November 2011, Whisper Systems announced that it had been acquired by Twitter. Twitter released TextSecure as free and open-source software under the GPLv3 license in December 2011. RedPhone was also released under the same license in July 2012. Marlinspike later left Twitter and founded Open Whisper Systems as a collaborative Open Source project for the continued development of TextSecure and RedPhone.
 
-In February 2014, Open Whisper Systems introduced the second version of their TextSecure Protocol (now Signal Protocol), which added end-to-end encrypted group chat and instant messaging capabilities to TextSecure.[23] Toward the end of July 2014, Open Whisper Systems announced plans to unify its RedPhone and TextSecure applications as Signal. In November 2015, the TextSecure and RedPhone applications on Android were merged to become Signal for Android.
+In February 2014, Open Whisper Systems introduced the second version of their TextSecure Protocol (now Signal Protocol), which added end-to-end encrypted group chat and instant messaging capabilities to TextSecure. Toward the end of July 2014, Open Whisper Systems announced plans to unify its RedPhone and TextSecure applications as Signal. In November 2015, the TextSecure and RedPhone applications on Android were merged to become Signal for Android.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Signal_timeline.svg/653px-Signal_timeline.svg.png" width="550">
 
