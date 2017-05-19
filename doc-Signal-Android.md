@@ -63,10 +63,9 @@ Stakeholders are the people, groups and/or organizations that have interest or c
 
 **Users**: Consist of people who wants their message to be cryptographed during a conversation. Any person in the world who worries about privacy and security is eligible to be an user of this app.  
 
-**Maintainers**: Signal is maintained by the Open Whisper Systems team, but GitHub is the main driver in keeping the project alive. They orient and guide developers to keep building the project. 
+**System administrators**: Signal is administred by the Open Whisper Systems team, which is responsible orient and guide developers to keep building the project. 
 
-**Support staff**:
-<!-- Consists mainly of a lot of volunteers, but next to that also the GitHub staff and core developers. This is done by responding to issues, triaging issues and pull requests, closing bugs as duplicate or filed on the wrong repository, and much more. Also the Forum and Slack are used for quick support to the end users and developers. Lee Dohm is the main community manager and manages all supporting staff. -->
+**Support staff**:  Consists mainly of a lot of volunteers and core developers. This is done by responding to issues, triaging issues and pull requests, closing bugs as duplicate or filed on the wrong repository, and much more. 
 
 **Testers**: 
 <!-- The main users test the system and report bugs to the issue tracker on GitHub. There is no special test team available although the core developers test most pull requests before merging. -->
