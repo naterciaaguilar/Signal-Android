@@ -124,7 +124,7 @@ Development View
 ----------------
 According to Rozanski and Woods, the development view concerns "code structure and dependencies, build and configuration management of deliverables, systemwide design constraints, and system-wide standards to ensure technical integrity". 
 
-According to GitTrends.io, the Signal Private Messenger has only one user as truck factor (truck factor is the minimal number of developers that have to quit before a project is incapacitated. It reveals the concentration of knowledge in individual developers): Moxie Marlinspike (moxie0), responsible for more than 94% of the files in the master branch.
+According to GitTrends.io, the Signal Private Messenger has only one user as truck factor (truck factor is the minimal number of developers that have to quit before a project is incapacitated. It reveals the concentration of knowledge in individual developers): Moxie Marlinspike, responsible for more than 94% of the files in the master branch.
 
 ### Implementation details
 
@@ -206,32 +206,16 @@ In order to keep Signal Private Messenger updated and maintain its user-friendly
 Signal Private Messenger App Version History and Changelog:
 
 Latest Version: Signal Private Messenger 4.5.3 APK (Updated: May 2, 2017)
+
 Changes in 4.5.3:
 * Support for sending arbitrary file types.
 * Support for jumbomoji!
-* Bug fixes and performance improvements.
-Changes in 4.3.2:
-* Fix for crash in some settings screens on devices running KitKat and below.
-Changes in 4.3.1:
-* Eliminate echo on more devices.
-* Include preference for message font size.
-* Improve video playback.
 * Bug fixes and performance improvements.
 
 Old Version: Signal Private Messenger 4.3.2 APK (Updated: April 19, 2017)
 
 Changes in 4.3.2:
 * Fix for crash in some settings screens on devices running KitKat and below.
-
-Changes in 4.3.1:
-* Eliminate echo on more devices.
-* Include preference for message font size.
-* Improve video playback.
-* Bug fixes and performance improvements.
-
-Changes in 4.2.5:
-* Eliminate echo for some devices.
-* Bug fixes and performance improvements.
 
 Old Version: Signal Private Messenger 4.3.1 APK (Updated: April 18, 2017)
 
@@ -245,12 +229,12 @@ Changes in 4.2.5:
 * Eliminate echo for some devices.
 * Bug fixes and performance improvements.
 
+Old Version: Signal Private Messenger 4.2.4 APK (Updated: April 5, 2017)
+
 Changes in 4.2.4:
 * Screen is now disabled when device is raised to ear during voice note playback.
 * Raised the GIF size limit to 25MB.
 * Bug fixes and performance improvements.
-
-Old Version: Signal Private Messenger 4.2.4 APK (Updated: April 5, 2017)
 
 Old Version: Signal Private Messenger 4.1.0 APK (Updated: April 4, 2017)
 
