@@ -96,6 +96,99 @@ According to Rozanski and Woods, the development view concerns "code structure a
 
 According to GitTrends.io, the Signal Private Messenger has only one user as truck factor (truck factor is the minimal number of developers that have to quit before a project is incapacitated. It reveals the concentration of knowledge in individual developers): Moxie Marlinspike (moxie0), responsible for more than 94% of the files in the master branch.
 
+### Versions
+
+Signal Private Messenger App Version History and Changelog:
+
+Latest Version: Signal Private Messenger 4.5.3 APK (Updated: May 2, 2017)
+Changes in 4.5.3:
+* Support for sending arbitrary file types.
+* Support for jumbomoji!
+* Bug fixes and performance improvements.
+Changes in 4.3.2:
+* Fix for crash in some settings screens on devices running KitKat and below.
+Changes in 4.3.1:
+* Eliminate echo on more devices.
+* Include preference for message font size.
+* Improve video playback.
+* Bug fixes and performance improvements.
+
+Old Version: Signal Private Messenger 4.3.2 APK (Updated: April 19, 2017)
+Changes in 4.3.2:
+* Fix for crash in some settings screens on devices running KitKat and below.
+Changes in 4.3.1:
+* Eliminate echo on more devices.
+* Include preference for message font size.
+* Improve video playback.
+* Bug fixes and performance improvements.
+Changes in 4.2.5:
+* Eliminate echo for some devices.
+* Bug fixes and performance improvements.
+
+Old Version: Signal Private Messenger 4.3.1 APK (Updated: April 18, 2017)
+Changes in 4.3.1:
+* Eliminate echo on more devices.
+* Include preference for message font size.
+* Improve video playback.
+* Bug fixes and performance improvements.
+Changes in 4.2.5:
+* Eliminate echo for some devices.
+* Bug fixes and performance improvements.
+Changes in 4.2.4:
+* Screen is now disabled when device is raised to ear during voice note playback.
+* Raised the GIF size limit to 25MB.
+* Bug fixes and performance improvements.
+
+Old Version: Signal Private Messenger 4.2.4 APK (Updated: April 5, 2017)
+Old Version: Signal Private Messenger 4.1.0 APK (Updated: April 4, 2017)
+Old Version: Signal Private Messenger 4.0.1 APK (Updated: March 24, 2017)
+Old Version: Signal Private Messenger 4.0.0 APK (Updated: March 22, 2017)
+Old Version: Signal Private Messenger 3.31.4 APK (Updated: March 13, 2017)
+Old Version: Signal Private Messenger 3.30.4 APK (Updated: February 28, 2017)
+Old Version: Signal Private Messenger 3.29.6 APK (Updated: February 14, 2017)
+Old Version: Signal Private Messenger 3.28.4 APK (Updated: February 1, 2017)
+Old Version: Signal Private Messenger 3.27.1 APK (Updated: January 19, 2017)
+Old Version: Signal Private Messenger 3.26.2 APK (Updated: January 10, 2017)
+Old Version: Signal Private Messenger 3.25.4 APK (Updated: December 30, 2016)
+Old Version: Signal Private Messenger 3.25.3 APK (Updated: December 21, 2016)
+Old Version: Signal Private Messenger 3.24.1 APK (Updated: December 7, 2016)
+Old Version: Signal Private Messenger 3.23.0 APK (Updated: November 28, 2016)
+Old Version: Signal Private Messenger 3.22.2 APK (Updated: November 17, 2016)
+Old Version: Signal Private Messenger 3.21.3 APK (Updated: November 1, 2016)
+Old Version: Signal Private Messenger 3.20.4 APK (Updated: October 11, 2016)
+Old Version: Signal Private Messenger 3.19.1 APK (Updated: September 20, 2016)
+Old Version: Signal Private Messenger 3.19.0 APK (Updated: September 17, 2016)
+Old Version: Signal Private Messenger 3.17.0 APK (Updated: August 23, 2016)
+Old Version: Signal Private Messenger 3.16.1 APK (Updated: August 8, 2016)
+Old Version: Signal Private Messenger 3.16.0 APK (Updated: May 29, 2016)
+Old Version: Signal Private Messenger 3.15.2 APK (Updated: March 31, 2016)
+Old Version: Signal Private Messenger 3.13.1 APK (Updated: March 7, 2016)
+Old Version: Signal Private Messenger 3.12.0 APK (Updated: February 23, 2016)
+Old Version: Signal Private Messenger 3.11.1 APK (Updated: February 17, 2016)
+Old Version: Signal Private Messenger 3.10.0 APK (Updated: February 3, 2016)
+Old Version: Signal Private Messenger 3.9.1 APK (Updated: January 6, 2016)
+Old Version: Signal Private Messenger 3.8.1 APK (Updated: December 23, 2015)
+Old Version: Signal Private Messenger 3.7.2 APK (Updated: December 9, 2015)
+Old Version: Signal Private Messenger 3.6.1 APK (Updated: December 1, 2015)
+Old Version: Signal Private Messenger 3.5.2 APK (Updated: November 25, 2015)
+Old Version: Signal Private Messenger 3.4.2 APK (Updated: November 18, 2015)
+Old Version: Signal Private Messenger 3.3.3 APK (Updated: November 13, 2015)
+Old Version: Signal Private Messenger 3.3.2 APK (Updated: November 12, 2015)
+Old Version: Signal Private Messenger 3.1.1 APK (Updated: November 2, 2015)
+Old Version: Signal Private Messenger 2.28.1 APK (Updated: September 29, 2015)
+Old Version: Signal Private Messenger 2.27.2 APK (Updated: September 24, 2015)
+Old Version: Signal Private Messenger 2.26.5 APK (Updated: September 15, 2015)
+Old Version: Signal Private Messenger 2.26.4 APK (Updated: September 9, 2015)
+Old Version: Signal Private Messenger 2.25.3 APK (Updated: August 13, 2015)
+Old Version: Signal Private Messenger 2.24.1 APK (Updated: August 4, 2015)
+Old Version: Signal Private Messenger 2.23.3 APK (Updated: July 24, 2015)
+Old Version: Signal Private Messenger 2.23.2 APK (Updated: July 23, 2015)
+Old Version: Signal Private Messenger 2.22.2 APK (Updated: July 16, 2015)
+Old Version: Signal Private Messenger 2.21.0 APK (Updated: July 7, 2015)
+
+
+
+
 ### BitHub Rewards
 Since Signal is a Open Source software, they have a method to reward people who volunteer to contribute to the project though BitHub, which is a service that will automatically pay a percentage of Bitcoin funds for every submission to a GitHub repository. It is possible to find all details [here](https://github.com/WhisperSystems/Signal-Android/wiki/BitHub-Rewards).
 
