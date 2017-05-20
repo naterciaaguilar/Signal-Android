@@ -69,15 +69,6 @@ Stakeholders are the people, groups and/or organizations that have interest or c
 
 **Support staff**:  Consists mainly of a lot of volunteers and core developers. This is done by responding to issues, triaging issues and pull requests, closing bugs as duplicate or filed on the wrong repository, and much more. 
 
-**Testers**: 
-<!-- The main users test the system and report bugs to the issue tracker on GitHub. There is no special test team available although the core developers test most pull requests before merging. -->
-
-**Production Engineers**: 
-<!-- All tools like GitHub, the Forum, Slack and the build servers are maintained by the GitHub team. They make sure it is running and invest time in updates or setting up new tools. -->
-
-**Assessors**: 
-<!-- The core development team of Atom oversees the conformance of the programming standards. They check each pull request with multiple people and also check if it is still in line with the future planning. -->
-
 Signal is developed by *Open Whisper Systems*, a software organization founded by Moxie Marlinspike in 2013. The organization is funded by a combination of donations and grants, and all of its products are published as free and open-source software.
 
 <img src="https://upload.wikimedia.org/wikipedia/en/4/4f/Open_WhisperSystems_logo.png" width="150">
@@ -95,11 +86,7 @@ It’s important to note that while the Signal protocol encrypts the content of 
 
 Advertising might seem harmless, but it's important to remember that we are rarely in control of the profiles being created about us. As a result, these profiles may or may not be accurate. And regardless of the accuracy of our profiles, research has shown that profiling can lead to various forms of discrimination. As Open Whisper Systems is not in the data business, we believe Signal is more likely to protect our metadata.  The Signal protocol can be used independently from Google Play Services via LibreSignal, a fork of Signal, which can be installed from F-Droid, a free and open source Android app repository.
 
-<!-- https://securityinabox.org/en/blog/2016-05-23/why-we-still-recommend-signal-over-whatsapp-even-though-they-both-use-end-to-end-encryption/ -->
-
 ### Competitors
-
-<!-- https://theintercept.com/2016/06/22/battle-of-the-secure-messaging-apps-how-signal-beats-whatsapp/ -->
 
 The first thing that sets Signal apart from WhatsApp and Allo is that it is open source. The app’s code is freely available for experts to inspect for flaws or back doors in its security. Another thing that makes Signal unique is its business model: There is none. In stark contrast to Facebook and Google, which make their money selling ads, Open Whisper Systems is entirely supported by grants and donations. With no advertising to target, the company intentionally stores as little user data as possible.
 
@@ -112,7 +99,7 @@ Signal users must share their contact list with the app in order to find other u
 If you back up your phone to your Google or iCloud account, Signal doesn’t include any of your messages in this backup. WhatsApp’s gaping backup issue simply doesn’t exist with Signal, and there’s no risk of accidentally handing over your private messages to any third-party company. In short, if a government demands that Open Whisper Systems hand over the content or metadata of a Signal message or a user’s contact list, it has nothing to hand over. And that government will have just as little luck requesting backups of Signal messages from Google or Apple.
 
 ### Downsides
-<!-- https://theintercept.com/2016/06/22/battle-of-the-secure-messaging-apps-how-signal-beats-whatsapp/ --> 
+
 Compared to WhatsApp’s 1 billion users, Signal’s user base is minuscule. Marlinspike said that they don’t publish statistics about how many users they have, but Android’s Google Play store reports that Signal has been downloaded between 1 and 5 million times. The iPhone App Store does not publish this data.
 
 This means that if you install the Signal app, chances are you’ll have to convince your friends, family, and colleagues to install it as well before you can benefit from Signal’s top-grade privacy protection. If you install WhatsApp, chances are a lot of your contacts are already using it, and you can begin having encrypted conversations with minimal effort.
@@ -128,14 +115,15 @@ According to GitTrends.io, the Signal Private Messenger has only one user as tru
 
 ### Implementation details
 
-<!--https://www.bestvpn.com/blog/30980/signal-private-messenger-review/ -->
-<!-- Text secure com ibageeens [falta adicionar] : https://whispersystems.org/blog/private-groups/ --> 
-
 Signal encrypts and decrypts all messages client-side (i.e. on the user’s phone before transmission and upon receipt), so they cannot be intercepted in transit. Messages can also be stored encrypted on the phone.
 
 Each text is encrypted using perfect forward secrecy (using an ephemeral Curve25519 key), so that if any keys are compromised, the attacker will only have access to one small part of the conversation. The text body itself is encrypted using 256-bit AES in CTR mode, with Curve25519 Diffie-Hellman handshake/key protection, and SHA256 hash authentication (for more information on these terms please see here.)
 
 Signal VoIP conversations are likewise encrypted client-side, with all voice communications between the app and servers encrypted using TLS, while the contents of communications are encrypted using 128-bit AES-CBC, with SHA1 hash authentication. This is not as strong as the encryption used by Signal for text messaging, probably due the fact that encrypting and decrypting data uses processing power, so stronger encryption would negatively impact the quality of calls. For most purposes this level of encryption should be more than sufficient, but if very high levels of privacy are required then you should probably stick to text messaging.
+
+<img src="https://whispersystems.org/blog/images/groups-pairwise-optimize.png" width = "400">
+
+*Figure 3 - Signal communication. Source: Github*
 
 ### Servers
 Signal relies on centralized servers that are maintained by Open Whisper Systems. In addition to routing Signal's messages, the servers also facilitate the discovery of contacts who are also registered Signal users and the automatic exchange of users' public keys. By default, Signal's voice and video calls are peer-to-peer. If the caller is not in the receiver's address book, the call is routed through a server in order to hide the users' IP addresses. Open Whisper Systems has set up dozens of servers in more than 10 countries around the world to minimize latency.
@@ -168,11 +156,19 @@ Even when phone is locked, someone with physical access can still read the messa
 **Session verification**
 On most messengers, there is no way to know that your message isn’t intercepted by a third party. With Signal, it's possible to verify that the current conversation is secure for both messages and calls. 
 
+<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar4.PNG?raw=true" width = "200">
+
+*Figure 4 - Signal Private Messenger Feature. Source: Google Play*
+
+<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar5.PNG?raw=true" width = "200">
+
+*Figure 5 - Signal Private Messenger Feature. Source: Google Play*
+
 ### BitHub Rewards
 Since Signal is a Open Source software, they have a method to reward people who volunteer to contribute to the project though BitHub, which is a service that will automatically pay a percentage of Bitcoin funds for every submission to a GitHub repository. It is possible to find all details [here](https://github.com/WhisperSystems/Signal-Android/wiki/BitHub-Rewards).
 
 ### Code Guidelines
-Moxie Marlinspike has provided standards for developing flexible, durable, and sustainable code style where contributors of the project must adhere to. This code guide can be found [here](https://github.com/WhisperSystems/Signal-Android/wiki/Code-Style-Guidelines). 
+Signal is developed with **JAVA**. Moxie Marlinspike has provided standards for developing flexible, durable, and sustainable code style where contributors of the project must adhere to. This code guide can be found [here](https://github.com/WhisperSystems/Signal-Android/wiki/Code-Style-Guidelines). 
 
 
 Evolution Perspective
@@ -185,23 +181,23 @@ In February 2014, Open Whisper Systems introduced the second version of their Te
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Signal_timeline.svg/653px-Signal_timeline.svg.png" width="550">
 
-*Figure 3 - Timeline of the development of Signal Private Messenger. Source: Wikipedia*
+*Figure 6 - Timeline of the development of Signal Private Messenger. Source: Wikipedia*
 
 The graph of inclusions and exclusions in the code, can be observed in the Figure 4 below.
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar2.PNG?raw=true">
 
-*Figure 4 - Code frequency (lines of code added and deleted) throughout the years of development. Source: Github*
+*Figure 7 - Code frequency (lines of code added and deleted) throughout the years of development. Source: Github*
 
 The next graph shows the number of contributors over the years, since 2012
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar.PNG?raw=true" >
 
-*Figure 5 - Contributions based on commits over the years for Singal Private Messenger, since 2012. Source: Github*
+*Figure 8 - Contributions based on commits over the years for Singal Private Messenger, since 2012. Source: Github*
 
 Number of stars over the years:
 
 <img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar3.PNG?raw=true" width="500">
 
-*Figure 6 - Number of stars and unstars over the years, since November 2011, and its predction for next year. Source: GitTrends.io*
+*Figure 9 - Number of stars and unstars over the years, since November 2011, and its predction for next year. Source: GitTrends.io*
 
 Most of the bug fixes contributions come from casual users, i.e., people who is not the main developer from any file.
 According to instructions listed on Signal's README, they use GitHub itself for bug tracking. It is instructed to search the existing issues for your bug and create a new one if the issue is not yet tracked.
@@ -209,10 +205,6 @@ According to instructions listed on Signal's README, they use GitHub itself for 
 In order to keep Signal Private Messenger updated and maintain its user-friendly interface, they track string translation activity using Transifex. By May 2017, they have translated 95 languages and 25 of them are completely translated.
 
 ### Versions
-
-<!-- Referências
- https://www.apk4fun.com/history/56556/ 
- https://github.com/WhisperSystems/Signal-Android/milestones?state=closed -->
 
 Signal Private Messenger App Version History and Changelog:
 
@@ -356,9 +348,19 @@ References
 
 [1] - Rozanski, Nick, and Eóin Woods. Software systems architecture: working with stakeholders using viewpoints and perspectives. Addison-Wesley, 2012. 
 
-[2] - https://whispersystems.org. Accessed on May 15 2017
+[2] - https://whispersystems.org. Accessed on May 13 2017
 
 [3] - http://gittrends.io/#/repos/WhisperSystems/Signal-Android. Accessed on May 15 2017
+
+[4] - https://securityinabox.org/en/blog/2016-05-23/why-we-still-recommend-signal-over-whatsapp-even-though-they-both-use-end-to-end-encryption/. Accessed on May 15 2017
+
+[5] - https://www.wsj.com/articles/moxie-marlinspike-the-coder-who-encrypted-your-texts-1436486274. Accessed on May 17 2017
+
+[6] - https://theintercept.com/2016/06/22/battle-of-the-secure-messaging-apps-how-signal-beats-whatsapp/. Accessed on May 20 2017
+
+
+
+
 
 
 
