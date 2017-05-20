@@ -39,6 +39,8 @@ Signal Private Messenger is an **encrypted communications app** for secure and p
 
 Signal is maintained and run by Open Whisper Systems, a small team of dedicated grant-funded developers, along with a large community of volunteer Open Source contributors that surround the project. All of the source code and files for this project are publicly hosted on GitHub, and anyone can get involved and contribute.
 
+Open Whisper Systems is a non-profit, grant-funded group of free software developers whose mission is to “advance the state of the art for secure communication, while simultaneously making it easy for everyone to use”.
+
 Information | Description
 ------------ | -------------
 Developer | Open Whisper Systems and contributors
@@ -89,12 +91,56 @@ The context view of a system defines the relationships, dependencies and interac
 
 The Open Whisper Systems community is working to advance the state of the art for secure communication, while simultaneously making it easy for everyone to use. They aim to make mass surveillance of private messaging a thing of the past, and to do that their biggest focus is currently user adoption; we want Signal (or something as secure as Signal) to be as ubiquitous as other messaging applications such as WhatsApp or Facebook Messenger.
 
+It’s important to note that while the Signal protocol encrypts the content of our communications, it does not encrypt metadata – information about information - such as who we contact, when and from where. 
+
 
 Development View 
 ----------------
 According to Rozanski and Woods, the development view concerns "code structure and dependencies, build and configuration management of deliverables, systemwide design constraints, and system-wide standards to ensure technical integrity". 
 
 According to GitTrends.io, the Signal Private Messenger has only one user as truck factor (truck factor is the minimal number of developers that have to quit before a project is incapacitated. It reveals the concentration of knowledge in individual developers): Moxie Marlinspike (moxie0), responsible for more than 94% of the files in the master branch.
+
+
+
+### BitHub Rewards
+Since Signal is a Open Source software, they have a method to reward people who volunteer to contribute to the project though BitHub, which is a service that will automatically pay a percentage of Bitcoin funds for every submission to a GitHub repository. It is possible to find all details [here](https://github.com/WhisperSystems/Signal-Android/wiki/BitHub-Rewards).
+
+### Code Guidelines
+Moxie Marlinspike has provided standards for developing flexible, durable, and sustainable code style where contributors of the project must adhere to. This code guide can be found [here](https://github.com/WhisperSystems/Signal-Android/wiki/Code-Style-Guidelines). 
+
+
+Evolution Perspective
+---------------------
+Signal Private Messenger is the successor of an encrypted voice calling app called RedPhone and an encrypted texting program called TextSecure. The beta versions of RedPhone and TextSecure were first launched in May 2010 by Whisper Systems, a startup company co-founded by security researcher Moxie Marlinspike and roboticist Stuart Anderson. The company also produced a firewall and tools for encrypting other forms of data. All of these were proprietary enterprise mobile security software and were only available for Android.
+
+In November 2011, Whisper Systems announced that it had been acquired by Twitter. Twitter released TextSecure as free and open-source software under the GPLv3 license in December 2011. RedPhone was also released under the same license in July 2012. Marlinspike later left Twitter and founded Open Whisper Systems as a collaborative Open Source project for the continued development of TextSecure and RedPhone.
+
+In February 2014, Open Whisper Systems introduced the second version of their TextSecure Protocol (now Signal Protocol), which added end-to-end encrypted group chat and instant messaging capabilities to TextSecure. Toward the end of July 2014, Open Whisper Systems announced plans to unify its RedPhone and TextSecure applications as Signal. In November 2015, the TextSecure and RedPhone applications on Android were merged to become Signal for Android.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Signal_timeline.svg/653px-Signal_timeline.svg.png" width="550">
+
+*Figure 3 - Timeline of the development of Signal Private Messenger. Source: Wikipedia*
+
+The graph of inclusions and exclusions in the code, can be observed in the Figure 4 below.
+<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar2.PNG?raw=true">
+
+*Figure 4 - Code frequency (lines of code added and deleted) throughout the years of development. Source: Github*
+
+The next graph shows the number of contributors over the years, since 2012
+<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar.PNG?raw=true" >
+
+*Figure 5 - Contributions based on commits over the years for Singal Private Messenger, since 2012. Source: Github*
+
+Number of stars over the years:
+
+<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar3.PNG?raw=true" width="500">
+
+*Figure 6 - Number of stars and unstars over the years, since November 2011, and its predction for next year. Source: GitTrends.io*
+
+Most of the bug fixes contributions come from casual users, i.e., people who is not the main developer from any file.
+According to instructions listed on Signal's README, they use GitHub itself for bug tracking. It is instructed to search the existing issues for your bug and create a new one if the issue is not yet tracked.
+
+In order to keep Signal Private Messenger updated and maintain its user-friendly interface, they track string translation activity using Transifex. By May 2017, they have translated 95 languages and 25 of them are completely translated.
 
 ### Versions
 
@@ -241,46 +287,6 @@ Old Version: Signal Private Messenger 2.22.2 APK (Updated: July 16, 2015)
 
 Old Version: Signal Private Messenger 2.21.0 APK (Updated: July 7, 2015)
 
-
-### BitHub Rewards
-Since Signal is a Open Source software, they have a method to reward people who volunteer to contribute to the project though BitHub, which is a service that will automatically pay a percentage of Bitcoin funds for every submission to a GitHub repository. It is possible to find all details [here](https://github.com/WhisperSystems/Signal-Android/wiki/BitHub-Rewards).
-
-### Code Guidelines
-Moxie Marlinspike has provided standards for developing flexible, durable, and sustainable code style where contributors of the project must adhere to. This code guide can be found [here](https://github.com/WhisperSystems/Signal-Android/wiki/Code-Style-Guidelines). 
-
-
-Evolution Perspective
----------------------
-Signal Private Messenger is the successor of an encrypted voice calling app called RedPhone and an encrypted texting program called TextSecure. The beta versions of RedPhone and TextSecure were first launched in May 2010 by Whisper Systems, a startup company co-founded by security researcher Moxie Marlinspike and roboticist Stuart Anderson. The company also produced a firewall and tools for encrypting other forms of data. All of these were proprietary enterprise mobile security software and were only available for Android.
-
-In November 2011, Whisper Systems announced that it had been acquired by Twitter. Twitter released TextSecure as free and open-source software under the GPLv3 license in December 2011. RedPhone was also released under the same license in July 2012. Marlinspike later left Twitter and founded Open Whisper Systems as a collaborative Open Source project for the continued development of TextSecure and RedPhone.
-
-In February 2014, Open Whisper Systems introduced the second version of their TextSecure Protocol (now Signal Protocol), which added end-to-end encrypted group chat and instant messaging capabilities to TextSecure. Toward the end of July 2014, Open Whisper Systems announced plans to unify its RedPhone and TextSecure applications as Signal. In November 2015, the TextSecure and RedPhone applications on Android were merged to become Signal for Android.
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Signal_timeline.svg/653px-Signal_timeline.svg.png" width="550">
-
-*Figure 3 - Timeline of the development of Signal Private Messenger. Source: Wikipedia*
-
-The graph of inclusions and exclusions in the code, can be observed in the Figure 4 below.
-<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar2.PNG?raw=true">
-
-*Figure 4 - Code frequency (lines of code added and deleted) throughout the years of development. Source: Github*
-
-The next graph shows the number of contributors over the years, since 2012
-<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar.PNG?raw=true" >
-
-*Figure 5 - Contributions based on commits over the years for Singal Private Messenger, since 2012. Source: Github*
-
-Number of stars over the years:
-
-<img src="https://github.com/gabibrant/Signal-Android/blob/master/Capturar3.PNG?raw=true" width="500">
-
-*Figure 6 - Number of stars and unstars over the years, since November 2011, and its predction for next year. Source: GitTrends.io*
-
-Most of the bug fixes contributions come from casual users, i.e., people who is not the main developer from any file.
-According to instructions listed on Signal's README, they use GitHub itself for bug tracking. It is instructed to search the existing issues for your bug and create a new one if the issue is not yet tracked.
-
-In order to keep Signal Private Messenger updated and maintain its user-friendly interface, they track string translation activity using Transifex. By May 2017, they have translated 95 languages and 25 of them are completely translated.
 
 Reception
 ----------
