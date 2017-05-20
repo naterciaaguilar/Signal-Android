@@ -209,7 +209,7 @@ Latest Version: Signal Private Messenger 4.5.3 APK (Updated: May 2, 2017)
 
 Changes in 4.5.3:
 * Support for sending arbitrary file types.
-* Support for jumbomoji!
+* Support for jumbomoji
 * Bug fixes and performance improvements.
 
 Old Version: Signal Private Messenger 4.3.2 APK (Updated: April 19, 2017)
