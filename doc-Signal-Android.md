@@ -103,6 +103,19 @@ According to Rozanski and Woods, the development view concerns "code structure a
 
 According to GitTrends.io, the Signal Private Messenger has only one user as truck factor (truck factor is the minimal number of developers that have to quit before a project is incapacitated. It reveals the concentration of knowledge in individual developers): Moxie Marlinspike (moxie0), responsible for more than 94% of the files in the master branch.
 
+### Implementation details
+
+<!--https://www.bestvpn.com/blog/30980/signal-private-messenger-review/ -->
+
+Signal encrypts and decrypts all messages client-side (i.e. on the user’s phone before transmission and upon receipt), so they cannot be intercepted in transit. Messages can also be stored encrypted on the phone.
+
+Each text is encrypted using perfect forward secrecy (using an ephemeral Curve25519 key), so that if any keys are compromised, the attacker will only have access to one small part of the conversation. The text body itself is encrypted using 256-bit AES in CTR mode, with Curve25519 Diffie-Hellman handshake/key protection, and SHA256 hash authentication (for more information on these terms please see here.)
+
+Signal VoIP conversations are likewise encrypted client-side, with all voice communications between the app and servers encrypted using TLS, while the contents of communications are encrypted using 128-bit AES-CBC, with SHA1 hash authentication.
+
+This is not as strong as the encryption used by Signal for text messaging, probably due the fact that encrypting and decrypting data uses processing power, so stronger encryption would negatively impact the quality of calls. For most purposes this level of encryption should be more than sufficient, but if very high levels of privacy are required then you should probably stick to text messaging.
+
+### Features
 
 
 ### BitHub Rewards
@@ -296,6 +309,8 @@ Reception
 Signal Private Messenger was well recepted by the security community. In October 2014, the Electronic Frontier Foundation (EFF) included Signal in their updated surveillance self-defense guide and afterwards, in November of the same year, Signal received a perfect score of the EFF's messaging scorecard. 
 
 Edward Sowden has endorsed Signal on multiple occasions. In his keynote speech at SXSW in March 2014, he praised Signal's predecessors (TextSecure and RedPhone) for their ease-of-use. During an interview with The New Yorker in October 2014, he recommended using "anything from Moxie Marlinspike and Open Whisper Systems." During a remote appearance at an event hosted by Ryerson University and Canadian Journalists for Free Expression in March 2015, Snowden said that Signal is "very good" and that he knew the security model. Asked about encrypted messaging apps during a Reddit AMA in May 2015, he recommended Signal. In November 2015, Snowden tweeted that he used Signal "every day."
+
+Signal is incorporated as the default messenger app in CyanogenMod, the very popular alternative OS or Android phones, and the TextSecure protocol on which Signal is based has also been adopted by the world’s most popular instant messaging app, WhatsApp
 
 Conclusion
 -----------
