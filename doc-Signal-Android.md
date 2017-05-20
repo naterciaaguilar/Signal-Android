@@ -137,6 +137,17 @@ Each text is encrypted using perfect forward secrecy (using an ephemeral Curve25
 
 Signal VoIP conversations are likewise encrypted client-side, with all voice communications between the app and servers encrypted using TLS, while the contents of communications are encrypted using 128-bit AES-CBC, with SHA1 hash authentication. This is not as strong as the encryption used by Signal for text messaging, probably due the fact that encrypting and decrypting data uses processing power, so stronger encryption would negatively impact the quality of calls. For most purposes this level of encryption should be more than sufficient, but if very high levels of privacy are required then you should probably stick to text messaging.
 
+### Servers
+Signal relies on centralized servers that are maintained by Open Whisper Systems. In addition to routing Signal's messages, the servers also facilitate the discovery of contacts who are also registered Signal users and the automatic exchange of users' public keys. By default, Signal's voice and video calls are peer-to-peer. If the caller is not in the receiver's address book, the call is routed through a server in order to hide the users' IP addresses. Open Whisper Systems has set up dozens of servers in more than 10 countries around the world to minimize latency.
+
+### Contact discovery
+The servers store registered users' phone numbers, public key material and push tokens which are necessary for setting up calls and transmitting messages. In order to determine which contacts are also Signal users, cryptographic hashes of the user's contact numbers are periodically transmitted to the server. The server then checks to see if those match any of the SHA256 hashes of registered users and tells the client if any matches are found. The hashed numbers are thereafter discarded from the server. Moxie Marlinspike has written that it is easy to calculate a map of all possible hash inputs to hash outputs and reverse the mapping because of the limited preimage space (the set of all possible hash inputs) of phone numbers, and that "practical privacy preserving contact discovery remains an unsolved problem."
+
+### Metadata
+All client-server communications are protected by TLS. Once the server removes this layer of encryption, each message contains the phone number of either the sender or the receiver in plaintext. This metadata could in theory allow the creation of "a detailed overview on when and with whom users communicated." Signal's privacy policy states that these identifiers are only kept on the servers as long as necessary in order to place each call or transmit each message. Open Whisper Systems have asserted that their servers do not keep logs about who called whom and when. In June 2016, Marlinspike told The Intercept that "the closest piece of information to metadata that the Signal server stores is the last time each user connected to the server, and the precision of this information is reduced to the day, rather than the hour, minute, and second."
+
+The group messaging mechanism is designed so that the servers do not have access to the membership list, group title, or group icon. Instead, the creation, updating, joining, and leaving of groups is done by the clients, which deliver pairwise messages to the participants in the same way that one-to-one messages are delivered.
+
 ### Features
 
 **Group messaging**
