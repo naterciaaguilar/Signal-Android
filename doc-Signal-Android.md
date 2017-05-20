@@ -111,6 +111,15 @@ Signal users must share their contact list with the app in order to find other u
 
 If you back up your phone to your Google or iCloud account, Signal doesn’t include any of your messages in this backup. WhatsApp’s gaping backup issue simply doesn’t exist with Signal, and there’s no risk of accidentally handing over your private messages to any third-party company. In short, if a government demands that Open Whisper Systems hand over the content or metadata of a Signal message or a user’s contact list, it has nothing to hand over. And that government will have just as little luck requesting backups of Signal messages from Google or Apple.
 
+### Downsides
+<!-- https://theintercept.com/2016/06/22/battle-of-the-secure-messaging-apps-how-signal-beats-whatsapp/ --> 
+Compared to WhatsApp’s 1 billion users, Signal’s user base is minuscule. Marlinspike said that they don’t publish statistics about how many users they have, but Android’s Google Play store reports that Signal has been downloaded between 1 and 5 million times. The iPhone App Store does not publish this data.
+
+This means that if you install the Signal app, chances are you’ll have to convince your friends, family, and colleagues to install it as well before you can benefit from Signal’s top-grade privacy protection. If you install WhatsApp, chances are a lot of your contacts are already using it, and you can begin having encrypted conversations with minimal effort.
+
+Signal also has fewer features and gets improved at a slower pace than its corporate competitors. For example, an early version of Signal Desktop has been available since the end of 2015, but it’s only available for Android users — iPhone support has not yet been developed, and it’s unclear when it will be finished. WhatsApp has a desktop version that works regardless of the type of phone you use.
+
+
 Development View 
 ----------------
 According to Rozanski and Woods, the development view concerns "code structure and dependencies, build and configuration management of deliverables, systemwide design constraints, and system-wide standards to ensure technical integrity". 
