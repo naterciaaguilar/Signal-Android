@@ -139,6 +139,23 @@ Signal VoIP conversations are likewise encrypted client-side, with all voice com
 
 ### Features
 
+**Group messaging**
+It is possible to name the group and add multiple people. 
+
+**Signal on desktop**
+Signal is availble on desktop version as well. But it's importante to notice that if users are having highly sensitive conversations and may have malicious software on their personal computer, encryption won’t protect messages. For example, if users are infected with malicious software designed to log keystrokes or send screenshots to a remote attacker.
+
+**Attachments**
+It is possible to send media files and also sennd GIFs here.
+
+**Make messages disappear**
+It is possible to delete a specific message. Because Signal stores all of your messages locally and not on a remote server, users only delete the message on their personal device while it may be availbe to its partner.
+
+**Clear History Logs**
+Even when phone is locked, someone with physical access can still read the message and sender name on your lock screen. But it's possible to avoid that with Signal, making sure messages aren’t readable on your lock screen.
+
+**Session verification**
+On most messengers, there is no way to know that your message isn’t intercepted by a third party. With Signal, it's possible to verify that the current conversation is secure for both messages and calls. 
 
 ### BitHub Rewards
 Since Signal is a Open Source software, they have a method to reward people who volunteer to contribute to the project though BitHub, which is a service that will automatically pay a percentage of Bitcoin funds for every submission to a GitHub repository. It is possible to find all details [here](https://github.com/WhisperSystems/Signal-Android/wiki/BitHub-Rewards).
