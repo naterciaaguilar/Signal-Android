@@ -97,6 +97,20 @@ Advertising might seem harmless, but it's important to remember that we are rare
 
 <!-- https://securityinabox.org/en/blog/2016-05-23/why-we-still-recommend-signal-over-whatsapp-even-though-they-both-use-end-to-end-encryption/ -->
 
+### Competitors
+
+<!-- https://theintercept.com/2016/06/22/battle-of-the-secure-messaging-apps-how-signal-beats-whatsapp/ -->
+
+The first thing that sets Signal apart from WhatsApp and Allo is that it is open source. The app’s code is freely available for experts to inspect for flaws or back doors in its security. Another thing that makes Signal unique is its business model: There is none. In stark contrast to Facebook and Google, which make their money selling ads, Open Whisper Systems is entirely supported by grants and donations. With no advertising to target, the company intentionally stores as little user data as possible.
+
+Like WhatsApp, all messages sent over Signal are end-to-end encrypted, and Open Whisper Systems doesn’t have the keys to decrypt them. What about message metadata, your phone’s contact list, and cloud backups?
+
+Signal’s privacy policy is short and concise. Unlike WhatsApp, Signal doesn’t store any message metadata. Cryptographer and Open Whisper Systems founder Moxie Marlinspike told me that the closest piece of information to metadata that the Signal server stores is the last time each user connected to the server, and the precision of this information is reduced to the day, rather than the hour, minute, and second.
+
+Signal users must share their contact list with the app in order to find other users — in WhatsApp, this is optional but recommended. But Signal doesn’t directly send your contact list to the server. Instead, it uses what’s known as a cryptographic hash function to obfuscate phone numbers before sending them to the server. (It also truncates the hashed phone numbers, if we’re being precise about things.) The server responds with the contacts that you have in common and then immediately discards the query, according to Marlinspike.
+
+If you back up your phone to your Google or iCloud account, Signal doesn’t include any of your messages in this backup. WhatsApp’s gaping backup issue simply doesn’t exist with Signal, and there’s no risk of accidentally handing over your private messages to any third-party company. In short, if a government demands that Open Whisper Systems hand over the content or metadata of a Signal message or a user’s contact list, it has nothing to hand over. And that government will have just as little luck requesting backups of Signal messages from Google or Apple.
+
 Development View 
 ----------------
 According to Rozanski and Woods, the development view concerns "code structure and dependencies, build and configuration management of deliverables, systemwide design constraints, and system-wide standards to ensure technical integrity". 
@@ -106,14 +120,13 @@ According to GitTrends.io, the Signal Private Messenger has only one user as tru
 ### Implementation details
 
 <!--https://www.bestvpn.com/blog/30980/signal-private-messenger-review/ -->
+<!-- Text secure com ibageeens [falta adicionar] : https://whispersystems.org/blog/private-groups/ --> 
 
 Signal encrypts and decrypts all messages client-side (i.e. on the user’s phone before transmission and upon receipt), so they cannot be intercepted in transit. Messages can also be stored encrypted on the phone.
 
 Each text is encrypted using perfect forward secrecy (using an ephemeral Curve25519 key), so that if any keys are compromised, the attacker will only have access to one small part of the conversation. The text body itself is encrypted using 256-bit AES in CTR mode, with Curve25519 Diffie-Hellman handshake/key protection, and SHA256 hash authentication (for more information on these terms please see here.)
 
-Signal VoIP conversations are likewise encrypted client-side, with all voice communications between the app and servers encrypted using TLS, while the contents of communications are encrypted using 128-bit AES-CBC, with SHA1 hash authentication.
-
-This is not as strong as the encryption used by Signal for text messaging, probably due the fact that encrypting and decrypting data uses processing power, so stronger encryption would negatively impact the quality of calls. For most purposes this level of encryption should be more than sufficient, but if very high levels of privacy are required then you should probably stick to text messaging.
+Signal VoIP conversations are likewise encrypted client-side, with all voice communications between the app and servers encrypted using TLS, while the contents of communications are encrypted using 128-bit AES-CBC, with SHA1 hash authentication. This is not as strong as the encryption used by Signal for text messaging, probably due the fact that encrypting and decrypting data uses processing power, so stronger encryption would negatively impact the quality of calls. For most purposes this level of encryption should be more than sufficient, but if very high levels of privacy are required then you should probably stick to text messaging.
 
 ### Features
 
@@ -314,6 +327,7 @@ Signal is incorporated as the default messenger app in CyanogenMod, the very pop
 
 Conclusion
 -----------
+Even without taking its privacy and security advantages into consideration, Signal makes an excellent SMS/MMS client that does a good job of replacing the stock one that came with your phone. As far as security is concerned, it is probably the best option currently available for keeping your text and voice conversations private.
 
 
 References
