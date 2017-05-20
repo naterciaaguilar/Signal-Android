@@ -95,6 +95,7 @@ It’s important to note that while the Signal protocol encrypts the content of 
 
 Advertising might seem harmless, but it's important to remember that we are rarely in control of the profiles being created about us. As a result, these profiles may or may not be accurate. And regardless of the accuracy of our profiles, research has shown that profiling can lead to various forms of discrimination. As Open Whisper Systems is not in the data business, we believe Signal is more likely to protect our metadata.  The Signal protocol can be used independently from Google Play Services via LibreSignal, a fork of Signal, which can be installed from F-Droid, a free and open source Android app repository.
 
+<!-- https://securityinabox.org/en/blog/2016-05-23/why-we-still-recommend-signal-over-whatsapp-even-though-they-both-use-end-to-end-encryption/ -->
 
 Development View 
 ----------------
