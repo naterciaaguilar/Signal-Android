@@ -19,6 +19,8 @@ Summary
 
 [TOC]
 
+{:toc max_level=3 }
+
 Introduction
 ------------
 
