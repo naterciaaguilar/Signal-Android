@@ -17,7 +17,14 @@ This chapter aims to thoroughly describe the architecture of the Signal Private 
 Summary
 ---------
 
-*[Introduction](#introduction)
+* [Introduction](#introduction)
+* [Stakeholders](#stakeholders)
+* [Context View](#context-view)
+* [Development View](#development-view)
+* [Evolution Perspective](#evolution-perspective)
+* [Reception](#reception)
+* [Conclusion](#conclusion)
+
 
 Introduction
 ------------
