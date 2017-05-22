@@ -16,13 +16,8 @@ This chapter aims to thoroughly describe the architecture of the Signal Private 
 
 Summary
 ---------
-* Introduction
-* Stakeholders
-* Context
-* Development View
-* Evolution Perspective
-* Conclusion
-* References
+
+[TOC]
 
 Introduction
 ------------
@@ -75,7 +70,7 @@ Signal is developed by *Open Whisper Systems*, a software organization founded b
 
 *Figure 2 - Open Whisper Systems Logo. Source: Github*
 
-Context
+Context View
 ------------
 
 The context view of a system defines the relationships, dependencies and interactions between the system and its environment. This environment includes the people, systems and external entities with which it interacts. It defines what the system does and what the system does not do.
