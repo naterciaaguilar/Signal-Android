@@ -17,9 +17,7 @@ This chapter aims to thoroughly describe the architecture of the Signal Private 
 Summary
 ---------
 
-[TOC]
-
-{:toc max_level=3 }
+*[Introduction](#introduction)
 
 Introduction
 ------------
