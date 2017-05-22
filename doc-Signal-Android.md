@@ -99,7 +99,7 @@ Signal’s privacy policy is short and concise. Unlike WhatsApp, Signal doesn’
 
 Signal users must share their contact list with the app in order to find other users — in WhatsApp, this is optional but recommended. But Signal doesn’t directly send your contact list to the server. Instead, it uses what’s known as a cryptographic hash function to obfuscate phone numbers before sending them to the server. (It also truncates the hashed phone numbers, if we’re being precise about things.) The server responds with the contacts that you have in common and then immediately discards the query, according to Marlinspike.
 
-If you back up your phone to your Google or iCloud account, Signal doesn’t include any of your messages in this backup. WhatsApp’s gaping backup issue simply doesn’t exist with Signal, and there’s no risk of accidentally handing over your private messages to any third-party company. In short, if a government demands that Open Whisper Systems hand over the content or metadata of a Signal message or a user’s contact list, it has nothing to hand over. And that government will have just as little luck requesting backups of Signal messages from Google or Apple.
+If you back up your phone to your Google account, Signal doesn’t include any of your messages in this backup. WhatsApp’s gaping backup issue simply doesn’t exist with Signal, and there’s no risk of accidentally handing over your private messages to any third-party company. In short, if a government demands that Open Whisper Systems hand over the content or metadata of a Signal message or a user’s contact list, it has nothing to hand over. And that government will have just as little luck requesting backups of Signal messages from Google.
 
 ### Downsides
 
